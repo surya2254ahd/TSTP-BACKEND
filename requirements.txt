@@ -1,0 +1,9 @@
+django
+celery[redis]
+djangorestframework
+django-cors-headers
+psycopg2-binary
+boto3
+python-dotenv
+django-storages
+django-filter

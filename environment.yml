@@ -1,0 +1,21 @@
+name: stest_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - django
+    - celery[redis]
+    - djangorestframework
+    - django-cors-headers
+    - psycopg2-binary
+    - boto3
+    - python-dotenv
+    - django-storages
+    - django-filter
+    - gunicorn
+    - django-redis
+    - beautifulsoup4
+    - lxml
+    - pandas

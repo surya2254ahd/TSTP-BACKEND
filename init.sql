@@ -1,0 +1,2 @@
+ALTER USER smartest WITH SUPERUSER;
+ALTER DATABASE sTest OWNER TO smartest;
